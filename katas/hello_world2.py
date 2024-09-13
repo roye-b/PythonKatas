@@ -4,6 +4,7 @@ def create_greeting():
     """
     greeting = "Hello"
     name = 'world'
+    return 'fff'
 
 
 result = create_greeting()
