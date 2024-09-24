@@ -2,14 +2,13 @@ def tax_calc(income1, income2, income3):
     """
     Calculates the total tax for three given income values based on specific tax rates.
     """
-
+    return (income1*0.10) + (income2*0.15) + (income3*0.20)
 
 total_tax = tax_calc(50000, 80000, 120000)
 print(total_tax)  # 41000.0 expected based on the provided tax rates below
 
 total_tax = tax_calc(30000, 60000, 90000)
 print(total_tax)  # 30000.0 expected based on the provided tax rates below
-
 """
 To complete this exercise:
 --------------------------

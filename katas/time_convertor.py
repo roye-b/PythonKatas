@@ -2,6 +2,15 @@ def time_convertor(value, unit):
     """
     Converts the given time value in the specified unit to seconds.
     """
+    if unit == 'seconds':
+        result = value
+    elif unit == 'minutes':
+        result = value * 60
+    elif unit == 'hours':
+        result = value * 3600
+    elif unit == 'days':
+        result = value * 86400
+    return result
 
 
 converted_time_1 = time_convertor(2, 'minutes')

@@ -2,6 +2,7 @@ def age_message(age):
     """
     Returns a message that combines a string and an integer representing age.
     """
+    age = input("What is your age? ")  # Ask for the user's name as a string
     message = "I am " + age + " years old."
     return message
 

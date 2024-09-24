@@ -2,16 +2,12 @@ def numbers_division(a, b):
     """
     Performs division on two integers.
     """
+a = int(input("namber a"))
+b = int(input("namber b"))
 
 
-result = numbers_division(10, 3)
-print(result)  # Expected output: 3.3333
-
-result = numbers_division(8, 2)
-print(result)  # Expected output: 4.0
-
-result = numbers_division(5, 2)
-print(result)  # Expected output: 2.5
+result = a / b
+print (result)
 
 """
 To complete this exercise:

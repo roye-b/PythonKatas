@@ -2,9 +2,13 @@ def get_century(year):
     """
     Returns the century of the given year.
     """
-    # Implement the function to return the correct century.
+    # Calculate the century
+    if year % 100 == 0:
+        return year // 100
+    else:
+        return (year // 100) + 1
 
-
+# Test cases
 result = get_century(1786)
 print(result)  # 18 expected
 

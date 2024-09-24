@@ -2,6 +2,11 @@ def is_even(number):
     """
     Checks if the given number is even.
     """
+    if number % 2 == 0:
+        result = True
+    else:
+        result = False
+    return result
 
 
 result_1 = is_even(4)
@@ -15,7 +20,6 @@ print(result_3)  # True expected
 
 result_4 = is_even(-2)
 print(result_4)  # True expected
-
 
 """
 To complete this exercise:
