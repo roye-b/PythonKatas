@@ -1,11 +1,15 @@
-def greeting(name):
+def greeting():
     """
     Returns a personalized greeting message with the given `name`.
     """
+    name = input("What is your name? ")  # Ask for the user's name as a string
 
+    greeting_msg = "Hello"
+    return f"{greeting_msg}, {name}!"  # Include the name in the greeting
 
-greeting_msg = greeting('David')
-print(greeting_msg)  # "hello David" should be printed
+result = greeting()
+print(result)  # Expected output: "Hello, [Name]"
+
 
 """
 To complete this exercise:

@@ -3,18 +3,10 @@ def get_seconds(days):
     Converts the given number of days into seconds.
     """
 
+days = int(input("how many days?"))
 
-
-seconds_1 = get_seconds(1)
-print(seconds_1)  # 86400 expected
-
-seconds_2 = get_seconds(0)
-print(seconds_2)  # 0 expected
-
-seconds_3 = get_seconds(2)
-print(seconds_3)  # 172800 expected
-
-
+result = days * 24 * 360
+print (result)
 """
 To complete this exercise:
 --------------------------

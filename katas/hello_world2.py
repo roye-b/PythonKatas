@@ -4,11 +4,10 @@ def create_greeting():
     """
     greeting = "Hello"
     name = 'world'
-    return 'fff'
-
+    return f"{greeting}, {name}!"  # Concatenating with f-string
 
 result = create_greeting()
-print(result)  # "Hello, world!" expected
+print(result)  # Output: "Hello, world!"
 
 """
 To complete this exercise:
