@@ -37,12 +37,12 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [X] `my_abs.py`
 - [X] `shopping_list.py`
 - [X] `last_one.py`
-- [ ] `sandwich_ingredients.py`
-- [ ] `every_second_word.py`
-- [ ] `recent_messages.py`
-- [ ] `get_username.py`
-- [ ] `shopping_list2.py`
-- [ ] `log_message.py`
+- [X] `sandwich_ingredients.py`
+- [X] `every_second_word.py`
+- [X] `recent_messages.py`
+- [X] `get_username.py`
+- [X] `shopping_list2.py`
+- [X] `log_message.py`
 - [ ] `mailing_list.py`
 - [ ] `grader.py`
 - [ ] `find_student.py`

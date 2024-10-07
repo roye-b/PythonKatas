@@ -2,7 +2,8 @@ def get_sandwich_ingredients(sandwich):
     """
     Returns the middle elements of the sandwich list
     """
-
+    sandwich = sandwich[1:len(sandwich)-1]
+    return (sandwich)
 
 sandwich_ingredients = ["bread", "lettuce", "tomato", "cheese", "bread"]
 print(get_sandwich_ingredients(sandwich_ingredients))  # ["lettuce", "tomato", "cheese"] expected

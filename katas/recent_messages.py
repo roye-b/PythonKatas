@@ -2,7 +2,8 @@ def get_recent_messages(messages, start_index):
     """
     Returns a list of messages starting from the given index to the end of the list.
     """
-
+    messages=messages[start_index:len(messages)]
+    return (messages)
 
 chat_history = ["Hello!", "How are you?", "Let's meet up.", "See you soon!", "Take care!"]
 print(get_recent_messages(chat_history, 2))  # ["Let's meet up.", "See you soon!", "Take care!"] expected
