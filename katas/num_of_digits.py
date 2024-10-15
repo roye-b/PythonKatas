@@ -1,8 +1,9 @@
-def num_of_digits(number):
-    """
-    Returns the number of digits in the given integer.
-    """
 
+
+def num_of_digits(number):
+
+    num_of_digits = len(str(number))
+    return num_of_digits
 
 # Test cases
 result = num_of_digits(12345)

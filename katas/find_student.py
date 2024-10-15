@@ -1,10 +1,12 @@
+
 def find_student(student_list, student_name):
-    """
-    Checks if a student is in the list of enrolled students.
-    """
+    if student_name in student_list:
+        return f'{student_name} is enrolled.'
+    else:
+        return f'{student_name} is not enrolled.'
 
 
-students = ["Alice", "Bob", "Charlie", "Diana"]
+students= ["Alice", "Bob", "Charlie", "Diana"]
 
 result = find_student(students, "Alice")
 print(result)  # Expected output: Alice is enrolled.

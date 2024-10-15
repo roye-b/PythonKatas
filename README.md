@@ -43,15 +43,15 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [X] `get_username.py`
 - [X] `shopping_list2.py`
 - [X] `log_message.py`
-- [ ] `mailing_list.py`
-- [ ] `grader.py`
-- [ ] `find_student.py`
-- [ ] `is_word_absent.py`
-- [ ] `is_valid_password`
-- [ ] `is_earlier.py`
-- [ ] `num_of_digits.py`
-- [ ] `is_palindrome.py`
-- [ ] `has_pattern.py`
+- [X] `mailing_list.py`
+- [X] `grader.py`
+- [X] `find_student.py`
+- [X] `is_word_absent.py`
+- [X] `is_valid_password`
+- [X] `is_earlier.py`
+- [X] `num_of_digits.py`
+- [X] `is_palindrome.py`
+- [X] `has_pattern.py`
 
 - [ ] `is_subscriber_matching.py`
 - [ ] `get_first_n_words.py`
@@ -93,4 +93,41 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [ ] `check_identity.py`    
 - [ ] `book_your_seat.py`    
 - [ ] `boarding_pass_code.py`
-- [ ] `process_payment.py`   
+- [ ] `process_payment.py`
+
+
+- [ ] `lets_vote.py`       
+- [ ] `in_the_club.py`     
+- [ ] `top_student.py`     
+- [ ] `mind_the_gap.py`    
+- [ ] `is_sublist.py`      
+- [ ] `runner_position.py` 
+- [ ] `folder_count.py`    
+- [ ] `secret_club.py`     
+- [ ] `dicts_in_order.py`  
+- [ ] `they_legit.py`  
+
+
+- [ ] `count_even_numbers.py`
+- [ ] `do_twice.py`          
+- [ ] `list_rotation.py`     
+- [ ] `time_me.py`           
+- [ ] `monotonic_array.py`   
+- [ ] `prime_num.py`
+- [ ] `seven_boom.py`
+- [ ] `strong_pass.py`       
+- [ ] `merge_sorted_lists.py`
+- [ ] `best_student.py`
+- [ ] `pair_match.py`
+- [ ] `merge_dict.py`
+
+
+- [ ] `file_exceptions.py`
+- [ ] `most_frequent_name.py`
+- [ ] `car.py`
+- [ ] `dog.py`
+- [ ] `cache_list.py`
+- [ ] `simple_queue.py`
+- [ ] `tree.py`
+
+

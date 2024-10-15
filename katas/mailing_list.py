@@ -2,13 +2,15 @@ def add_to_list(emails_str, new_email):
     """
     Adds the new_email to an existing emails_str.
     """
-
+    result = emails_str + ','+ new_email
+    return result
 
 def mailing_list(emails):
     """
     Splits a comma-separated string of email addresses into a list of individual emails.
     """
-
+    email_list = emails.split(',')
+    return email_list
 
 email_string = "alice@example.com,bob@example.com,charlie@example.com"
 result = mailing_list(email_string)
